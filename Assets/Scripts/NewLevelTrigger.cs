@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class NewLevelTrigger : MonoBehaviour
 {
@@ -7,6 +8,7 @@ public class NewLevelTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("I have found a playa");
+            SceneManager.LoadScene("Level2");
         }
     }
 }
