@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 514786334495117889}
   - component: {fileID: 6681245885805986186}
   - component: {fileID: 2350550804725503816}
+  - component: {fileID: 2756141871926547916}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -226,6 +227,22 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &2756141871926547916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4194116005640570679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea9f5c359f3125b408b492a16aeda7b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
+  maxHealth: 100
+  currentHealth: 0
+  healthText: {fileID: 0}
+  deathScreen: {fileID: 6225821138756944090, guid: 696e10edc71f1db49bafaa46b9f79762, type: 3}
 --- !u!1 &6260485466938732763
 GameObject:
   m_ObjectHideFlags: 0
