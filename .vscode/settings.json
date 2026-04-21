@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "Project1Repo.slnx"
+    "dotnet.defaultSolution": "Project2Repo.slnx"
 }
